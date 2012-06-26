@@ -1,0 +1,132 @@
+/*
+ * Import nib
+ */
+/*
+ * Grab a custom font from Google
+ */
+@import url("http://fonts.googleapis.com/css?family=Electrolize");
+/*
+ * Nib provides a CSS reset
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  font-family: 'Electrolize';
+  background-color: #fff;
+  color: #444;
+}
+header {
+  font-family: 'Press Start 2P';
+  padding: 40px 10px;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  background-color: #2e8b57;
+  cursor: default;
+  text-shadow: 0px -1px 0px #20613d;
+}
+.top-menu {
+  align: right;
+  background-color: #2e8b57;
+  padding: 3px;
+  color: #fff;
+}
+.top-menu table {
+  position: absolute;
+  background-color: #2e8b57;
+  right: 20%;
+  word-spacing: 12px;
+}
+.top-menu td {
+  padding: 0px;
+  cursor: pointer;
+}

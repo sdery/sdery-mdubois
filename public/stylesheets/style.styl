@@ -1,0 +1,50 @@
+/*
+ * Import nib
+ */
+@import 'nib'
+
+/*
+ * Grab a custom font from Google
+ */
+@import url('http://fonts.googleapis.com/css?family=Electrolize')
+
+/*
+ * Nib provides a CSS reset
+ */
+global-reset()
+
+main_color = #2E8B57
+background_color = #fff
+
+body
+	font-family 'Electrolize'
+	background-color background_color
+	color #444
+
+header
+	font-family 'Press Start 2P'
+	padding 40px 10px
+	color #fff
+	font-size 35px
+	text-align center
+	background-color main_color
+	cursor default
+	text-shadow 0px -1px 0px darken(main_color, 30%)
+
+
+
+.top-menu
+	align right
+	background-color main_color
+	padding 3px
+	color #fff	
+
+	table
+		position absolute
+		background-color main_color
+		right 20%
+		word-spacing 12px
+
+	td
+		padding 0px
+		cursor pointer
